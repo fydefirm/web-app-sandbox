@@ -8,5 +8,12 @@
   <body>
     <h1>Hello World From Hillview Group</h1>
     <h2>...coming live from API</h2>
+    <p id="name">...</p>
   </body>
+  <script>
+    (async function () {
+      let { text } = await (await fetch(`/api/get-message`)).json();
+      document.querySelector("#name").textContent = text;
+    })();
+  </script>
 </html>
