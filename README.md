@@ -9,7 +9,11 @@ This project is to to develop and test a web application deployment to Azure Sta
    Date: 09/10/2023
 
 2. Version 2: add complex html with bootstrap
-   Deployment result:
+   Deployment result: successful
+   Date: 09/10/2023
+
+3. Version 3: revert back to basic html in order to learn calling api
+   Depoloyment result:
    Date: 09/10/2023
 
 ## Team
